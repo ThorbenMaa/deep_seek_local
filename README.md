@@ -2,6 +2,7 @@
 Simple code to download one of the destilled DeepSeek-R1 models and host it locally on a laptot in a gradio webapp (using CPU).
 GPU can also be utilized. If you have GPU available, adopt the installation of pytorch libraries as explained below.
 # Setup
+Work from inside the cloned repository.
 ## install mamba
 ```
 wget "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh"
@@ -17,6 +18,7 @@ mamba install pip
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
 pip install transformers tokenizers gradio
+pip install 'accelerate>=0.26.0'
 ```
 ## run code and host model in web app 
 ```
