@@ -1,0 +1,11 @@
+.locks/models--deepseek-ai--DeepSeek-R1-Distill-Qwen-1.5B/052ab54633116a634da950ab483233c4ace0aa82.lock
+.locks/models--deepseek-ai--DeepSeek-R1-Distill-Qwen-1.5B/68c044b63c894bc0c3d334a44bed2856d6d6815d.lock
+.locks/models--deepseek-ai--DeepSeek-R1-Distill-Qwen-1.5B/58858233513d76b8703e72eed6ce16807b523328188e13329257fb9594462945.lock
+models--deepseek-ai--DeepSeek-R1-Distill-Qwen-1.5B/blobs/052ab54633116a634da950ab483233c4ace0aa82
+models--deepseek-ai--DeepSeek-R1-Distill-Qwen-1.5B/blobs/68c044b63c894bc0c3d334a44bed2856d6d6815d
+models--deepseek-ai--DeepSeek-R1-Distill-Qwen-1.5B/blobs/58858233513d76b8703e72eed6ce16807b523328188e13329257fb9594462945
+models--deepseek-ai--DeepSeek-R1-Distill-Qwen-1.5B/refs/main
+models--deepseek-ai--DeepSeek-R1-Distill-Qwen-1.5B/snapshots/6393b7559e403fd1d80bfead361586fd6f630a4d/config.json
+models--deepseek-ai--DeepSeek-R1-Distill-Qwen-1.5B/snapshots/6393b7559e403fd1d80bfead361586fd6f630a4d/generation_config.json
+models--deepseek-ai--DeepSeek-R1-Distill-Qwen-1.5B/snapshots/6393b7559e403fd1d80bfead361586fd6f630a4d/model.safetensors
+.gradio/certificate.pem
