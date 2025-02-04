@@ -1,5 +1,5 @@
 # Summary
-Simple code to download one of the destilled DeepSeek-R1 models and host the locally on a laptot in a gradio webapp (using CPU).
+Simple code to download one of the destilled DeepSeek-R1 models and host it locally on a laptot in a gradio webapp (using CPU).
 GPU can also be utilized. If you have GPU available, adopt the installation of pytorch libraries as explained below.
 # Setup
 ## install mamba
