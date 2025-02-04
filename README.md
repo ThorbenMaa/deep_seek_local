@@ -8,7 +8,7 @@ wget "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforg
 bash Miniforge3-Linux-x86_64.sh
 mamba init
 ```
-## vreate env and install libraries
+## create env and install libraries
 ```
 mamba create -n deep_seek
 mamba activate depp_seek
@@ -25,6 +25,6 @@ python host_deep_seek_locally.py
 
 # Recommendations
 If you use the QWEN 1.5b parameter model, set the tempertaure to 1.
-Since its running on CPU, its pretty small. Play around with the pytorch installation and the
+Since its running on CPU, its pretty slow. Play around with the pytorch installation and the
 [`AutoModelForCausalLM.from_pretrained`](https://huggingface.co/docs/transformers/model_doc/auto#transformers.AutoModelForCausalLM) class 
 to optimize the performance.
