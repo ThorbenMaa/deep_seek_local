@@ -25,3 +25,6 @@ python host_deep_seek_locally.py
 
 # Recommendations
 If you use the QWEN 1.5b parameter model, set the tempertaure to 1.
+Since its running on CPU, its pretty small. Play around with the pytorch installation and the
+[`AutoModelForCausalLM.from_pretrained`](https://huggingface.co/docs/transformers/model_doc/auto#transformers.AutoModelForCausalLM) class 
+to optimize the performance.
