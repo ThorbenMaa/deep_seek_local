@@ -33,12 +33,12 @@ app = gr.Interface(
     fn=generate_text,
     inputs=[
         gr.Textbox(lines=3, placeholder="Enter your prompt..."),
-        gr.Slider(50, 500, value=500, label="Max Length"),
+        gr.Slider(50, 500, value=1000, label="Max Length"),
         gr.Slider(0.1, 1.0, value=1, label="Temperature")
     ],
     outputs="text",
-    title="DeepSeek-R1-Distill-Qwen-1.5B Demo",
-    description="A distilled 1.5B parameter model for efficient local AI."
+    title=f"Your personal {model_name} model",
+    description="Type in questions below"
 )
 
 app.launch(share=False)  # Access via http://localhost:7860
